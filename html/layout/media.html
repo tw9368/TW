@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>media Qeury</title>
+<style>
+    body {background: #4db6ac; color: #fff; }
+    h1::before {content: '1. ';}
+
+    /* @media [only/not] [media type] [and/,](조건문){실행문} */
+    /* 화면 너비가 0 ~ 1280px : 데스크탑 */
+    @Media (max-width: 1280px){
+        body {background: #3d5afe; color: #fff; }
+        h1::before {content: '2. ';}
+    }
+    /* 화면 너비가 0 ~ 1024px : 노트북 */
+    @Media (max-width: 1024px){
+        body {background: #8bc34a; color: #fff; }
+        h1::before {content: '3. ';}
+    }
+    /* 화면 너비가 0 ~ 960px : 노트북&테블릿 */
+    @Media (max-width: 960px){
+        body {background: #ff7043; color: #fff; }
+        h1::before {content: '4. ';}
+    }
+    /* 화면 너비가 0 ~ 768px : 테블릿 */
+    @Media (max-width: 768px){
+        body {background: #8d6e63; color: #fff; }
+        h1::before {content: '5. ';}
+    }
+    /* 화면 너비가 0 ~ 576px : 모바일 */
+    @Media (max-width: 576px){
+        body {background: #512da8; color: #fff; }
+        h1::before {content: '6. ';}
+    }
+     /* 화면 너비가 0 ~ 320px : 모바일 */
+     @Media (max-width: 320px){
+        body {background: #303f9f; color: #fff; }
+        h1::before {content: '7. ';}
+    }
+</style>
+</head>
+<body>
+    <h1>미디어쿼리(Media Qeury)</h1>
+    <p>미디어쿼리는 화면 크기에 따른 각각의 속성 값을 지정하여, 여러가지 화면을 구성하는 기술입니다.</p>
+</body>
+</html>

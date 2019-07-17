@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+   <style>
+      #wrap {}
+      .notice_left {position: relative; width: 45%; height: 200px; float: left; border: 1px solid #ccc;  overflow: hidden; padding: 30px;}
+      .notice_left h4 {font-size: 25px; padding-left: 70px; font-weight: 700;}
+      .notice_left ul {}
+      .notice_left ul li {}
+      .notice_left ul li a {width: 60%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+      .notice_left ul li span {width: 30%; float: right;}
+      .notice_left a.more {position: absolute; top: 30px; right: 30px;}
+
+
+      .notice_right {width: 45%; height: 200px; background : #ccc; border: 1px solid #ccc; float: right; position: relative;}
+      .notice_right h4 {font-size: 20px; padding-left: 50px; font-weight: 600;}
+      .notice_right ul {}
+      .notice_right ul li {}
+      .notice_right ul img {position: absolute; left:50px;}
+      .notice_right ul li a {width: 60%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+      .notice_right ul li span {width: 30%; float: right; text-align: center;}
+      .notice_right a.more {position: absolute; top: 0; right: 0;}
+
+
+
+   </style>
+</head>
+<body>
+   <div id="wrap">
+      <div class="notice_left">
+         <h4>TOAST Meetup!</h4>
+         <ul>
+            <li><a href="#">[Android] Unit Testing Framework - Robolectric</a><span>2019. 06. 04</span></li>
+            <li><a href="#">[Kotlin] 메모리릭 방지하기 | Kotlin, Lambda의 강력함 | Lambda는 진리입니다.</a><span>2019. 06. 04</span></li>
+            <li><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019. 06. 04</span></li>
+            <li><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019. 06. 04</span></li>
+         </ul>
+         <a href="#" alt="더보기" class="more"><img src="img/arrow.jpg" alt=""></a>
+      </div>
+
+      <div class="notice_right">
+         <h4>TOAST Meetup!</h4>
+         <ul>
+            <li><img src="img/icon1.jpg" alt=""><a href="#">[Android] Unit Testing Framework - Robolectric</a><span>2019. 06. 04</span></li>
+            <li><img src="img/icon1.jpg" alt=""><a href="#">[Kotlin] 메모리릭 방지하기 | Kotlin, Lambda의 강력함 | Lambda는 진리입니다.</a><span>2019. 06. 04</span></li>
+            <li><img src="img/icon2.jpg" alt=""><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019. 06. 04</span></li>
+            <li><img src="img/icon1.jpg" alt=""><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019. 06. 04</span></li>
+         </ul>
+          <a href="#" class="more" alt="더보기"><img src="img/arrow.jpg" alt=""></a>
+         
+      </div>
+
+
+   </div>
+</body>
+</html>

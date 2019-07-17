@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TOAST</title>
+	<style>
+		ul {list-style:none;}
+		a {color: #222; text-decoration: none;}
+		#wrap {width:1201px; margin: 0 auto; padding-top: 100px; overflow: hidden;}
+		.notice_left {width:600px;  position: relative;  float: left; border-right: 1px solid #ccc;}
+		.notice_left h4{font-size: 20px; font-weight: 700;  padding-left: 40px;}
+		.notice_left ul {margin: left:20px ;}
+		.notice_left ul li a{width: 60%; float: left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #000;}
+		.notice_left ul li span{width: 30%; float: right;}
+		.notice_left a.more{position: absolute;top:0; right:0; top: 40px; right: 80px;}
+
+
+		.notice_right {position: relative; width: 600px; position: relative;  float: right; }
+		.notice_right h4 {font-size: 20px; font-weight: 700;  padding-left: 40px;}
+		.notice_right ul {margin: 20px; }
+		.notice_right ul li {overflow: hidden;}
+		.notice_right ul li img {position: absolute; left: 40px;}
+		.notice_right ul li a {width: 60%; float:left; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: #000; padding-left: 50px;}
+		.notice_right ul li span {width: 30%; float: right;}
+		.notice_right a.more {position: absolute; top:40px; right:90px;}
+		
+
+
+	</style>
+
+
+</head>
+<body>
+	<div id="wrap">
+		<div class="notice_left">
+			<h4>TOAST Meetup!</h4>
+		<ul>
+			<li><a href="#">[Android] Unit Testing Framework - Robolectric</a><span>2019. 06. 04</span></li>
+			<li><a href="#">[Kotlin] 메모리릭 방지하기 | Kotlin, Lambda의 강력함 | Lambda는 진리입니다.</a><span>2019. 06. 04</span></li>
+			<li><a href="#">[Java] Integer.valueOf(127) == Integer.valueOf(127) 는 참일까요?</a><span>2019. 06. 04</span></li>
+			<li><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019. 06. 04</span></li>
+		</ul>
+		<a href="#" class="more"><img src="img/arrow.jpg" alt="더보기"></a>
+
+
+		</div>
+
+		<div class="notice_right">
+			<h4>서비스공지</h4>
+			<ul>
+				<li><img src="img/icon01.jpg" alt=""><a href="#">[보QL을 이용한 랜섬웨어 공격안동향공지] MyS동향 및 대응방법</a><span>2019. 06. 04</span></li>       
+				<li><img src="img/icon01.jpg" alt=""><a href="#">[TOAST FORWARD] 자바스크립트 OOP 꼭꼭 씹어 먹기</a><span>2019. 05. 28</span></li>
+				<li><img src="img/icon02.jpg" alt=""><a href="#">[JP Region]Compute & Network 점검 안내</a><span>2019. 05. 24</span></li>
+				<li><img src="img/icon01.jpg" alt=""><a href="#">Secure Key Manager 신규 출시 및 u2 Instance 정책 변경 안내</a><span>2019. 05. 24</span></li>
+			</ul>
+			<a href="#" class="more"><img src="img/arrow.jpg" alt="더보기"></a>
+		</div>
+	</div>
+	
+</body>
+</html>
